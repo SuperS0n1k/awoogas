@@ -17,6 +17,4 @@ while True:
     session = scratch3.login("TheBurgerFollower", "TheBurger")
     user = session.connect_user("griffpatch")
     time.sleep(1)
-    user.post_comment("Become A Follower")
-    time.sleep(1)
-    
+    user.post_comment("Become A Follower. Be Part of The Movement.")
