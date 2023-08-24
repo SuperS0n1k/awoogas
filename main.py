@@ -5,4 +5,4 @@ while True:
     try:
         user.post_comment("#MakeScratchBurgerAgain")
     except Exception:
-    pass
+        pass
