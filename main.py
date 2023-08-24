@@ -7,10 +7,7 @@ while True:
 
 import time
 import scratchattach as scratch3
-
-session = scratch3.ScratchSession()
-session.login("TheBurgerFollower", "TheBurger")
-
+scratch3.login("TheBurgerFollower", "TheBurger")
 while True:
     project = session.connect_project("884084370")
     project.post_comment("#MakeScratchBurgerAgain")
