@@ -9,13 +9,8 @@ import time
 import scratchattach as scratch3
 session = scratch3.login("TheBurgerFollower", "TheBurger")
 project = session.connect_project("884084370")
-project.post_comment("#BurgerTeam")
-time.sleep(5)
-project.post_comment("#BurgerTeam")
-time.sleep(5)
-project.post_comment("#BurgerTeam")
-time.sleep(5)
-project.post_comment("#BurgerTeam")
-time.sleep(5)
-project.post_comment("#BurgerTeam")
-time.sleep(5)
+while True:
+    project.love()
+    project.unlove()
+    project.favorite()
+    project.unfavorite()
