@@ -8,9 +8,9 @@ while True:
 import time
 import scratchattach as scratch3
 session = scratch3.login("TheBurgerFollower", "TheBurger")
-project = session.connect_project("884084370")
 while True:
-    project.love()
-    project.unlove()
+    project = session.connect_project("884084370")
     project.favorite()
+    time.sleep(1)
     project.unfavorite()
+    time.sleep(1)
