@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-13
+    runs-on: macos-12
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
