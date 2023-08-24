@@ -21,6 +21,4 @@ jobs:
           pip install -U scratchattach
 
       - name: execute py script # run main.py
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
         run: python main.py
