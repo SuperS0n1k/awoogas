@@ -19,6 +19,7 @@ jobs:
         run: |
         
           pip install -U scratchattach
+          pip install randint
 
       - name: execute py script # run main.py
         run: python main.py
