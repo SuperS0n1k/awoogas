@@ -13,7 +13,7 @@ while True:
 
 import time
 import scratchattach as scratch3
-import randint
+from random import randint
 iteratons = 1
 while True:
     session = scratch3.login("DownWithST1", "DownWithSTs")
