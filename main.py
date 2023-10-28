@@ -16,19 +16,7 @@ import scratchattach as scratch3
 from random import randint
 iteratons = 1
 while True:
-    session = scratch3.login("DownWithST1", "DownWithSTs")
-    user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(1,999999999999999999999999)))
-    iteratons = iteratons + 1
-    session = scratch3.login("DownWithST2", "DownWithSTs")
-    user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(1,999999999999999999999999)))
-    iteratons = iteratons + 1
-    user.post_comment(str(randint(1,999999999999999999999999)))
-    user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(1,999999999999999999999999)))
-    iteratons = iteratons + 1
-    session = scratch3.login("DownWithST4", "DownWithSTs")
+    session = scratch3.login("vajayna", "vajaynas")
     user = session.connect_user("griffpatch")
     user.post_comment(str(randint(1,999999999999999999999999)))
     iteratons = iteratons + 1
