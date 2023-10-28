@@ -18,18 +18,18 @@ iteratons = 1
 while True:
     session = scratch3.login("DownWithST1", "DownWithSTs")
     user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(999999999999999999999999)))
+    user.post_comment(str(randint(1,999999999999999999999999)))
     iteratons = iteratons + 1
     session = scratch3.login("DownWithST2", "DownWithSTs")
     user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(999999999999999999999999)))
+    user.post_comment(str(randint(1,999999999999999999999999)))
     iteratons = iteratons + 1
-    user.post_comment(str(randint(999999999999999999999999)))
+    user.post_comment(str(randint(1,999999999999999999999999)))
     user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(999999999999999999999999)))
+    user.post_comment(str(randint(1,999999999999999999999999)))
     iteratons = iteratons + 1
     session = scratch3.login("DownWithST4", "DownWithSTs")
     user = session.connect_user("griffpatch")
-    user.post_comment(str(randint(999999999999999999999999)))
+    user.post_comment(str(randint(1,999999999999999999999999)))
     iteratons = iteratons + 1
     time.sleep(1)
