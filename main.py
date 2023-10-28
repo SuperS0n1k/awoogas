@@ -23,4 +23,12 @@ while True:
     user = session.connect_user("griffpatch")
     user.post_comment("Down with the ST. This message has been delivered " + str(iteratons) + " times. ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴏꜰꜰᴇᴇ.")
     iteratons = iteratons + 1
+    session = scratch3.login("DownWithST3", "DownWithSTs")
+    user = session.connect_user("griffpatch")
+    user.post_comment("Down with the ST. This message has been delivered " + str(iteratons) + " times. ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴏꜰꜰᴇᴇ.")
+    iteratons = iteratons + 1
+    session = scratch3.login("DownWithST4", "DownWithSTs")
+    user = session.connect_user("griffpatch")
+    user.post_comment("Down with the ST. This message has been delivered " + str(iteratons) + " times. ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴏꜰꜰᴇᴇ.")
+    iteratons = iteratons + 1
     time.sleep(1)
