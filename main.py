@@ -22,8 +22,4 @@ while True:
     iteratons = iteratons + 1
     time.sleep(1)'''
     project = session.connect_project("911931288")
-    project.love()
-    project.unlove()
-    project.favorite()
-    project.unfavorite()
     project.post_view()
