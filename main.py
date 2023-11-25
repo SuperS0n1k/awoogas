@@ -12,16 +12,9 @@ conn = session.connect_cloud('843162693') #add Original Project ID
 def run_forever():
         try:
                 while True:
-                        for key in variables:
-                                conn = scratch3.TwCloudConnection(project_id = "930033180", username=username) #add your remixed project ID 
-                                var = conn.get_var(key)
-                                conn = session.connect_cloud('843162693') #add Original Project ID
-                                if var == 'None':
-                                        #do nothing
-                                        print(var)
-                                else:
-                                        conn.set_var(key, var)
-                                        print(var)
+			conn = session.connect_cloud('843162693') #add Original Project ID
+			conn.set_var(key, var)
+			print(var)
         except Exception:
                 print("error")
                 handle_exception()
