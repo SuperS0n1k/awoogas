@@ -9,8 +9,7 @@ session = scratch3.Session(".eJxVj09LxDAQxb9Lzru1adP82ZvCIoIoKyKsl5I0s21sm6xtSkH
 conn = session.connect_cloud('843162693') #add Original Project ID
 
 def run_forever():
-        try:
-                while True:
+	while True:
 		conn = session.connect_cloud('843162693') #add Original Project ID
 		conn.set_var("CLOUD1", randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
 		conn.set_var("CLOUD2", randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
@@ -21,13 +20,5 @@ def run_forever():
 		conn.set_var("CLOUD7", randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
 		conn.set_var("CLOUD8", randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
 		conn.set_var("CLOUD9", randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-        except Exception:
-                print("error")
-                handle_exception()
-                run_forever()
-	
-def handle_exception():
-        # code here
-        pass
-    
+
 run_forever()
