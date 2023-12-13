@@ -1,24 +1,19 @@
-import os
-import sys
-import os.path
-import scratchattach as scratch3
-from scratchattach import Encoding
-from time import sleep
+import time
 import random
-session = scratch3.Session(".eJxVj09LxDAQxb9Lzru1adP82ZvCIoIoKyKsl5I0s21sm6xtSkHxuzuBXvY2vN-8N29-yTLD5PUI5ECeoAVv92RHar3Erk6odhaJLBitFFWIIsyxCaF3ybGGqQd7azC66TEGadLAR9fo6ILPNjBnb3AdNvFhW8bcgEMyGW5yLqlgcGHCKJVLxS0wWQpmBdOHs_-0r8d39_Eou-9n6tyyxuMp8lM3Y8wQWuf37opJtMxoXmVMZVSVqeOgfbvoNhXHUztiv1AIdXQj_ASf5PsRJmx29wJrfcbfbj_r9NzhEq8ELXKry8pyqS9SGKBc5rIoKBeSScsFGF0y8vcPFb9wDQ:1q0MP5:DkmPc69uXm8-Z1d64NWZaTaGNfo", username="iegend-")
-conn = session.connect_cloud('843162693') #add Original Project ID
-
-def run_forever():
-	while True:
-		conn = session.connect_cloud('843162693') #add Original Project ID
-		conn.set_var("CLOUD1", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD2", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD3", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD4", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD5", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD6", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD7", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD8", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-		conn.set_var("CLOUD9", random.randint(1,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-
-run_forever()
+import scratchattach as scratch3
+while True:
+	session = scratch3.login("SBThelper2", "qsefthi")
+	user = session.connect_user("ceebee")
+	time.sleep(1)
+	user.post_comment("["+ str(randint(1,999999)) +"]")
+	time.sleep(1)
+	session = scratch3.login("SBThelper3", "qsefthi")
+	user = session.connect_user("paddle2see")
+	time.sleep(1)
+	user.post_comment("["+ str(randint(1,999999)) +"]")
+	time.sleep(1)
+	session = scratch3.login("SBThelper4", "qsefthi")
+	user = session.connect_user("zinnea")
+	time.sleep(1)
+	user.post_comment("["+ str(randint(1,999999)) +"]")
+	time.sleep(1)
