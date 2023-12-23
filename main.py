@@ -1,19 +1,6 @@
 import time
 import random
 import scratchattach as scratch3
+conn = scratch3.connect_tw_cloud("523967150")
 while True:
-	session = scratch3.login("SBThelper2", "qsefthi")
-	user = session.connect_user("griffpatch")
-	time.sleep(1)
-	user.post_comment("["+ str(random.randint(1,999999)) +"]")
-	time.sleep(1)
-	session = scratch3.login("SBThelper3", "qsefthi")
-	user = session.connect_user("griffpatch")
-	time.sleep(1)
-	user.post_comment("["+ str(random.randint(1,999999)) +"]")
-	time.sleep(1)
-	session = scratch3.login("SBThelper4", "qsefthi")
-	user = session.connect_user("griffpatch")
-	time.sleep(1)
-	user.post_comment("["+ str(random.randint(1,999999)) +"]")
-	time.sleep(1)
+	conn.set_var("1", "636155555360566460530424303032530424303032535553636155555353555355646453125355588862646464646464646464646464555553605853555564555553645353535553555364535364536453556453")
